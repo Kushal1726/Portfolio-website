@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #746ee4;
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project-section i{
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    background-color: #52b264;
+    color: #fff;
+    font-size: 58px;
+    margin-bottom: 55px;
+}
+.project-section h2{
+    font-size: 30px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+.project-section p{
+    display: flex;
+    font-size: 15px;
+}
+.project-section a{
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.project-section i:hover{
+    background-color: #5e5e5e;
+    transition: 0.2s ease;
+}
+.project-section{
+    text-align: center;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-gap: 20px;
+}
+
+
+
+
+
+
+
+
+
